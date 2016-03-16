@@ -1,0 +1,32 @@
+{
+  "name": "getpb",
+  "version": "0.0.3",
+  "description": "gen pb file from protol (only can be used in protocolbuffer 2.4.1)",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "glob": "^5.0.10",
+    "shelljs": "^0.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesclong/getpb.git"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "getpb": "main.js"
+  },
+  "keywords": [
+    "pb",
+    "getpb",
+    "convertprotocoltopb"
+  ],
+  "author": "cesclong@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cesclong/getpb/issues"
+  },
+  "homepage": "https://github.com/cesclong/getpb#readme"
+}
